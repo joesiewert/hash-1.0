@@ -33,3 +33,5 @@ people = {
 #   Summers
 #
 # HINT: Start by finding who joe is sitting next to, then find that person in the hash.
+person = people["joe"][:sitting_next_to].to_s
+puts people[person][:last_name]
